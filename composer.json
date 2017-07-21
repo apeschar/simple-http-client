@@ -1,0 +1,21 @@
+{
+    "name": "kiboit/simple-http-client",
+    "description": "A dead simple HTTP client based on cURL.",
+    "type": "library",
+    "require": {
+        "ext-curl": ">=7.0",
+        "php": ">=5.6"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Milko Kosturkov",
+            "email": "milko@kiboit.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "KiboIT\\SimpleHTTP\\": "src/"
+        }
+    }
+}
